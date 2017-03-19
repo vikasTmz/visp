@@ -229,7 +229,7 @@ int main(int argc, const char ** argv) {
 
 
     //Load color Klimt
-    filename = vpIoTools::createFilePath(ipath, "ViSP-images/Klimt/Klimt.pgm");
+    filename = vpIoTools::createFilePath(ipath, "ViSP-images/Klimt/Klimt.ppm");
 
     vpImage<vpRGBa> I_color_Klimt1, I_color_Klimt2;
     vpImageIo::read(I_color_Klimt1, filename);
